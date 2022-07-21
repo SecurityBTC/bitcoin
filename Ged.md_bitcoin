@@ -119,53 +119,58 @@ Submit a pull request resolving the issue along with an accompanying note or
 comment containing a bitcoin address and automatically receive a payment in the
 amount of the bounty if it gets merged.
 
-## How to Participate
-The following quick guides will help you get started:
-
-+ [Becoming a Contributor](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/become-a-contributor.md)
-+ [Working with GitHub](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/working-with-github.md)
-+ [Setting Up Your Environment](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/setting-up-your-environment.md)
-+ [Improving Developer Documentation](https://github.com/bitcoin-dot-org/developer.bitcoin.org/)
-+ [Assisting with Translations](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md)
-+ [Adding Exchanges](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/adding-exchanges.md)
-+ [Managing Wallets](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/managing-wallets.md)
-+ [Adding Events, Release Notes and Alerts](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/adding-events-release-notes-and-alerts.md)
-+ [Adding Blog Posts](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/adding-blog-posts.md)
-+ [Miscellaneous / Other](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/miscellaneous.md)
-
-### Code of Conduct
-
-Participation in this project is subject to a [Code of Conduct](https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/CODE_OF_CONDUCT.md).
-# Google Research
-
-This repository contains code released by
-[Google Research](https://research.google).
-
-All datasets in this repository are released under the CC BY 4.0 International
-license, which can be found here:
-https://creativecommons.org/licenses/by/4.0/legalcode.  All source files in this
-repository are released under the Apache 2.0 license, the text of which can be
-found in the LICENSE file.
-
----
-
-Because the repo is large, we recommend you download only the subdirectory of
-interest:
-
-```
-SUBDIR=foo
-svn export https://github.com/google-research/google-research/trunk/$SUBDIR
-```
-
-If you'd like to submit a pull request, you'll need to clone the repository;
-we recommend making a shallow clone (without history).
-
-```
-git clone git@github.com:google-research/google-research.git --depth=1
-```
-
----
-
-*Disclaimer: This is not an official Google product.*
+Request URL: https://github.com/settings/app
+Request method: POST
+Accept: */*
+content-type: application/x-www-form-urlencoded
+User-Agent: GitHub-Hookshot/6ea2dc3
+X-GitHub-Delivery: cfd3a0b0-088c-11ed-9f5f-e90de96bf5fd
+X-GitHub-Event: ping
+X-GitHub-Hook-ID: 369730414
+X-GitHub-Hook-Installation-Target-ID: 13107
+X-GitHub-Hook-Installation-Target-Type: marketplace::listing
+X-Hub-Signature: sha1=6753109e0d497a39cc395d5d8f15cd4e82ef80ed
+X-Hub-Signature-256: sha256=48853e039f0a66d16a5318a923f88502bd998bd1c8133aa915a5dc9d87c27ff3
+Payload
+{
+  "zen": "It's not fully shipped until it's fast.",
+  "hook_id": 369730414,
+  "hook": {
+    "type": "Marketplace::Listing",
+    "id": 369730414,
+    "name": "web",
+    "active": true,
+    "events": [
+      "*"
+    ],
+    "config": {
+      "content_type": "form",
+      "secret": "********",
+      "url": "https://github.com/settings/app",
+      "insecure_ssl": "0"
+    },
+    "updated_at": "2022-07-21T00:33:59Z",
+    "created_at": "2022-07-21T00:33:59Z",
+    "marketplace_listing_id": 13107
+  },
+  "sender": {
+    "login": "SecurityBTC",
+    "id": 108498425,
+    "node_id": "U_kgDOBneN-Q",
+    "avatar_url": "https://avatars.githubusercontent.com/u/108498425?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/SecurityBTC",
+    "html_url": "https://github.com/SecurityBTC",
+    "followers_url": "https://api.github.com/users/SecurityBTC/followers",
+    "following_url": "https://api.github.com/users/SecurityBTC/following{/other_user}",
+    "gists_url": "https://api.github.com/users/SecurityBTC/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/SecurityBTC/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/SecurityBTC/subscriptions",
+    "organizations_url": "https://api.github.com/users/SecurityBTC/orgs",
+    "repos_url": "https://api.github.com/users/SecurityBTC/repos",
+    "events_url": "https://api.github.com/users/SecurityBTC/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/SecurityBTC/received_events",
+    "type": "User",
+    "site_admin": false
 
 
