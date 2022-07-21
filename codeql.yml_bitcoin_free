@@ -1,4 +1,6 @@
 https://bc.game/api/user/password/reset/page?sign=f0561c340a5b3d0eac62283985f4cd7a898918541a841d1ff188b3a9058fd4c4
+<<<< SecurityBTC-patch-3
+=======
 
 
 Server Seed (hash)
@@ -18,3 +20,4 @@ Nonce
 Use New Seeds
 
 e9f85e849a647ecbd428c6001ed013a5fca714da02e2b419c8a67b99ca1fd5bf
+>>> main
